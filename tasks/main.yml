@@ -86,3 +86,4 @@
 - name: Set timezone
   community.general.timezone:
     name: '{{ chrony_timezone }}'
+  when: chrony_timezone is defined

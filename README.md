@@ -65,7 +65,7 @@ Role Variables
 * `chrony_ntp_servers` --- list of NTP servers in use, default `['0.pool.ntp.org', '1.pool.ntp.org', '2.pool.ntp.org', '3.pool.ntp.org']`
 * `chrony_rtcsync` --- enable kernel synchronization of the real-time clock (RTC), default `false`
 * `chrony_smearing` --- enable leap second smearing (should only be used for NTP servers), default `false`
-* `chrony_timezone` --- timezone for the system. Run `timedatectl list-timezones` on any systemd system to list available timezones, default `UTC`
+* `chrony_timezone` --- timezone for the system (optional). Run `timedatectl list-timezones` on any systemd system to list available timezones 
 
 
 Dependencies

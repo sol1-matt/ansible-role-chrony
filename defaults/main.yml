@@ -15,4 +15,3 @@ chrony_ntp_servers:
   - 3.pool.ntp.org
 chrony_rtcsync: false
 chrony_smearing: false
-chrony_timezone: "UTC"
